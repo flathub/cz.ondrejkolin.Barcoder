@@ -1,8 +1,10 @@
 ---
 id: cz.ondrejkolin.Barcoder
 runtime: org.gnome.Platform
-runtime-version: "46"
+runtime-version: "48"
 sdk: org.gnome.Sdk
+sdk-extensions:
+  - org.freedesktop.Sdk.Extension.rust-stable
 command: barcoder
 finish-args:
   - --socket=wayland
@@ -31,7 +33,7 @@ modules:
     sources:
     - type: git
       url: https://gitlab.gnome.org/jwestman/blueprint-compiler
-      tag: v0.12.0
+      tag: v0.16.0
   - name: barcoder
     builddir: true
     buildsystem: meson
@@ -40,6 +42,6 @@ modules:
     sources:
       - cargo-sources.json
       - type: git
-        tag: 0.1.0
-        commit: d1898cd481a374e53fbc05fa1cbf8352fc393896
+        tag: 0.2.0
+        commit: 9f84994ebd7f27e7ecf9bad27668638307f53d3f
         url: https://gitlab.com/ondrej.kolin/barcoder.git
