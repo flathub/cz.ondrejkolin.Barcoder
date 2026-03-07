@@ -43,6 +43,6 @@ modules:
     sources:
       - cargo-sources.json
       - type: git
-        tag: 0.3.0
-        commit: 5827de8dc4f2cc7e2adecd4ccd8c7910b1e16852
+        tag: 0.3.1
+        commit: be14bc4a569bfecbdbcad588ebf17e006ec23e55
         url: https://gitlab.com/ondrej.kolin/barcoder.git
