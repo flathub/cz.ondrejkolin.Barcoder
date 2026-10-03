@@ -1,6 +1,6 @@
 id: cz.ondrejkolin.Barcoder
 runtime: org.gnome.Platform
-runtime-version: "49"
+runtime-version: "51"
 sdk: org.gnome.Sdk
 sdk-extensions:
   - org.freedesktop.Sdk.Extension.rust-stable
@@ -24,6 +24,6 @@ modules:
     sources:
       - cargo-sources.json
       - type: git
-        tag: 0.5.0
-        commit: 19ded2ce5c3eb2be64af569911945750558123e6
+        tag: 0.5.2
+        commit: 119f930619721d52c757637bd8dc282d505ddcbb
         url: https://gitlab.com/ondrej.kolin/barcoder.git
